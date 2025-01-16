@@ -1,0 +1,30 @@
+
+
+* {  
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 500px;
+    margin: 0 auto; /* Centers the body horizontally on the page by giving equal left and right margins. */
+  }
+  
+  p {
+    background: aqua;
+    border: 3px solid blue; /* Adds a blue border around the paragraph, 3 pixels wide and solid in style. */
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  span {
+    background: red;
+    border: 1px solid black;
+  }
+  
+  .positioned {
+    position: absolute;
+    background: yellow;
+    top: 30px;
+    left: 30px;
+  }
+  
