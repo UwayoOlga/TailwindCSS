@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Typographic Scale</title>
+  <style>
+    
+    html {
+      font-size: 15px;
+    }
+    h1 { font-size: 2.5rem; }   
+    h2 { font-size: 2rem; }     
+    h3 { font-size: 1.75rem; }  
+    h4 { font-size: 1.5rem; }   
+    h5 { font-size: 1.25rem; }  
+    h6 { font-size: 1rem; }     
+    p  { font-size: 1rem; }     
+ 
+    .container {
+      font-size: 1.25em;  
+      padding: 1em;      
+      border: 1px solid #ccc;
+      margin-bottom: 2em;
+    }
+    .child {
+      font-size: 0.8em; 
+    }
+  </style>
+</head>
+<body>
+  <h1>Main Heading (h1)</h1>
+  <h2>Secondary Heading (h2)</h2>
+  <h3>Subheading (h3)</h3>
+  <p>Regular paragraph text.</p>
+  
+  <div class="container">
+    <p class="child">This paragraph uses em units and adjusts based on the container's font size.</p>
+  </div>
+
+</body>
+</html>
