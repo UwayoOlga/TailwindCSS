@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Card</title>
+  <style>
+    html {
+      font-size: 16px; 
+    }
+
+    .card {
+      font-size: 1rem; 
+      padding: 1.5em; 
+      margin: 2rem auto; 
+      border: 1px solid #ccc;
+      border-radius: 0.5em;
+      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    .card h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .card p {
+      font-size: 1em;
+      margin-bottom: 1.5em;
+    }
+
+    .card.small {
+      font-size: 0.7rem;
+    }
+
+    .card.large {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card small">
+    <img src="unnamed.png">
+    <h2>Small CSS Font Card</h2>
+    <p>This card uses smaller font size, and the padding adjusts accordingly.</p>
+  </div>
+
+  <div class="card">
+    <img src="unnamed.png">
+    <h2>Default CSS Font Card</h2>
+    <p>This card uses the default font size, maintaining proportional spacing.</p>
+  </div>
+
+  <div class="card large">
+    <img src="unnamed.png">
+    <h2>Large CSS Font Card</h2>
+    <p>This card has a larger font size, and spacing grows proportionally.</p>
+  </div>
+</body>
+</html>
